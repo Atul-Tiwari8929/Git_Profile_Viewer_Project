@@ -1,13 +1,15 @@
 {
-  "name": "day10",
+  "name": "day09",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "",
   "type": "module",
-   "homepage": "https://atul-tiwari8929.github.io/Git_Profile_Viewer_Project",
+  "homepage": "https://atul-tiwari8929.github.io/Git_Profile_Viewer_Project",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "predeploy": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "18.2.0",
