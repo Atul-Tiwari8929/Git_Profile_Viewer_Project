@@ -8,7 +8,7 @@
   "homepage": "https://atul-tiwari8929.github.io/Git_Profile_Viewer_Project",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "parcel build index.html",
+    "predeploy": "parcel build index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
